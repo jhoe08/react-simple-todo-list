@@ -1,5 +1,24 @@
 # React JS: TODO List
-A simple ReactJS TODO list connected with Firebase as database and authentication
+A simple ReactJS TODO list connected with Redux, Firebase as database and for authentication
+## Dependencies
+```bash
+"@babel/core": "^7.14.6",
+"@babel/plugin-proposal-class-properties": "^7.2.3",
+"core-js": "^3.15.2",
+"firebase": "^8.7.1",
+"history": "^4.10.1",
+"live-server": "^1.2.1",
+"moment": "^2.29.1",
+"parcel-bundler": "^1.12.5",
+"react": "^17.0.2",
+"react-dom": "^16.14.0",
+"react-redux": "^7.2.4",
+"react-route": "^1.0.3",
+"react-router": "^5.2.0",
+"react-router-dom": "^5.2.0",
+"redux": "^4.1.0"
+```
+
 ## Setting up
 1. First access the src/firebase.js
 2. Put your configuration and table name for the possible used

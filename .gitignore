@@ -1,6 +1,8 @@
 /node_modules
 /dist
+
+firebase.*
+
 .cache
 
 package-lock.json
-/src/firebase.js

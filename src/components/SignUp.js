@@ -56,7 +56,7 @@ class SigUp extends Component {
             Sign Up
           </button>
         </div>
-        <div><Link to='/signin'>Already have an account? Sign In</Link></div>
+        <div className='sign-in-up'><Link to='/signin'>Already have an account? Sign In</Link></div>
         <div>{this.state.error.message}</div>
       </div>
     )

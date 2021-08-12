@@ -37,6 +37,13 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 5px;
 }
 
+/* SIGN INUP*/
+.sign-in-up a{
+  font-family: 'RobotoCondensed';
+  font-size: 14px;
+  color: #fff;
+}
+
 /* [•••] SHOW MORE*/
 .showMore {
   position: absolute;

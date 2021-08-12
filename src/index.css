@@ -1,0 +1,164 @@
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(assets/roboto-condensed.light.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: EconomicaBold;
+  src: url(assets/economica-bold.ttf);
+}
+
+body {
+  background-color: #3c424a;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5%;
+  font-family: 'RobotoCondensed';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'EconomicaBold';
+}
+
+#root {
+  padding: 50px;
+}
+
+.noDisplay{
+  display: none;
+}
+.header-title{
+  text-transform: uppercase;
+}
+/* FORMS */
+.form-inline > input{
+  margin-bottom: 5px;
+}
+
+/* [•••] SHOW MORE*/
+.showMore {
+  position: absolute;
+  background-color: #444b54;
+  box-shadow: 0 0 7px 1px #25292e;
+  border-radius: 4px;
+  padding: 0;
+  right: 0;
+  width: 130px;
+  font-size: 14px;
+  z-index: 1;
+
+}
+.showMore > span {
+  display: block;
+  padding: 4px;
+  cursor: pointer;
+}
+.showMore > span:hover {
+  background-color: #555d6a;
+}
+.showMore > span > i {
+  font-size: x-small;
+  padding: 0px 10px;
+}
+/* TODO: List  */
+.todo-list {
+  text-align: left;
+}
+
+.todo-list > .list {
+  padding: 10px 0;
+}
+
+.todo-list > .list > * {
+  display: inline-block;
+}
+.todo-list > .list > .far{
+  margin-right: 5px;
+  margin-top: 5px;
+  vertical-align: top;
+}
+
+/* Date */
+.datePicker > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.datePicker i {
+  padding: 10px;
+  cursor: pointer;
+}
+.daysNames {
+  display: block;
+  text-transform: uppercase;
+}
+
+/* Date: Categories */
+.datePicker-category{
+  padding: 5px 0;
+  border-bottom: 2px solid;
+}
+.datePicker-category a{
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* POPUP */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #3a4049;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 8px);
+  top: calc(100vh - 85vh - 30px);
+  background: #292d33;
+  width: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+/* CUSTOM TOOLTIP */
+
+.custom-tooltip {
+  position: absolute;
+  left: -50px;
+  top: -45px;
+  padding: 5px 10px;
+  background: #3c424a;
+  box-shadow: 0px 0px 5px 2px #343a41;
+  border-radius: 4px;
+}
+
+@media (max-width: 520px) {
+  #root {
+    padding: 10px;
+  }
+}
